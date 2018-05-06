@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ByvStyles'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ByvStyles.'
+  s.summary          = 'A library to manage dynamic styles for texts and colors'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Whit this library styles and colors can be defined and used after dynamically in code.
                        DESC
 
-  s.homepage         = 'https://github.com/adrianByv/ByvStyles'
+  s.homepage         = 'https://github.com/byvapps/ByvStyles'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'adrianByv' => 'adrian@byvapps.com' }
-  s.source           = { :git => 'https://github.com/adrianByv/ByvStyles.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/byvapps/ByvStyles.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SwiftRichString', '~> 1.1'
 end

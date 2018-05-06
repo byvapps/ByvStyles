@@ -1,0 +1,255 @@
+[
+  {
+    "name": "textPrimaryDark",
+    "fontFace": "HelveticaNeue-Bold",
+    "fontSize": 16,
+    "fontWeight": 700,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "color": {
+      "r": 14,
+      "g": 101,
+      "b": 101,
+      "a": 1,
+      "name": "primaryDark"
+    },
+    "weightText": "bold"
+  },
+  {
+    "name": "textWhite",
+    "fontFace": "HelveticaNeue",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "color": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 1,
+      "name": "white"
+    },
+    "weightText": "regular"
+  },
+  {
+    "name": "textBlack",
+    "fontFace": "HelveticaNeue",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1,
+      "name": "black"
+    },
+    "weightText": "regular"
+  },
+  {
+    "name": "textBlackCentered",
+    "fontFace": "HelveticaNeue",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1,
+      "name": "black"
+    },
+    "weightText": "regular"
+  },
+  {
+    "name": "greenBold",
+    "fontFace": "HelveticaNeue-Bold",
+    "fontSize": 16,
+    "fontWeight": 700,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "color": {
+      "r": 14,
+      "g": 101,
+      "b": 101,
+      "a": 1,
+      "name": "primaryDark"
+    },
+    "weightText": "bold"
+  },
+  {
+    "name": "titleBoldWhite",
+    "fontFace": "HelveticaNeue-Bold",
+    "fontSize": 18,
+    "fontWeight": 700,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "color": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 1,
+      "name": "white"
+    },
+    "weightText": "bold"
+  },
+  {
+    "name": "subtitleWhite",
+    "fontFace": "HelveticaNeue",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "color": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 0.606,
+      "name": "whiteTransparent"
+    },
+    "weightText": "regular"
+  },
+  {
+    "name": "textBlackBold",
+    "fontFace": "HelveticaNeue-Bold",
+    "fontSize": 16,
+    "fontWeight": 700,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1,
+      "name": "black"
+    },
+    "weightText": "bold"
+  },
+  {
+    "name": "secondaryBtnStyle",
+    "fontFace": "HelveticaNeue-Bold",
+    "fontSize": 18,
+    "fontWeight": 700,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "letterSpacing": -0.2000000029802322,
+    "color": {
+      "r": 14,
+      "g": 101,
+      "b": 101,
+      "a": 1,
+      "name": "primaryDark"
+    },
+    "weightText": "bold"
+  },
+  {
+    "name": "subtitleMessages",
+    "fontFace": "HelveticaNeue",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1,
+      "name": "black"
+    },
+    "weightText": "regular"
+  },
+  {
+    "name": "subtitleBlack",
+    "fontFace": "HelveticaNeue",
+    "fontSize": 14,
+    "fontWeight": 400,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "color": {
+      "r": 117,
+      "g": 117,
+      "b": 117,
+      "a": 1,
+      "name": "subtitleBlack"
+    },
+    "weightText": "regular"
+  },
+  {
+    "name": "rightDetail",
+    "fontFace": "HelveticaNeue",
+    "fontSize": 16,
+    "fontWeight": 400,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.61,
+      "name": "blackLight"
+    },
+    "weightText": "regular"
+  },
+  {
+    "name": "subtitleMessagesBold",
+    "fontFace": "HelveticaNeue-Bold",
+    "fontSize": 14,
+    "fontWeight": 700,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1,
+      "name": "black"
+    },
+    "weightText": "bold"
+  },
+  {
+    "name": "prueba",
+    "fontFace": "HelveticaNeue-Bold",
+    "fontSize": 16,
+    "fontWeight": 700,
+    "fontStyle": "normal",
+    "fontFamily": "Roboto",
+    "fontStretch": "normal",
+    "textAlign": "left",
+    "letterSpacing": 12,
+    "color": {
+      "r": 6,
+      "g": 115,
+      "b": 73,
+      "a": 1
+    },
+    "weightText": "bold"
+  }
+]

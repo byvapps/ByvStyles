@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A42FC44209F2B3B00634626 /* Styles.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A42FC41209F2B3B00634626 /* Styles.json */; };
+		3A42FC45209F2B3B00634626 /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A42FC42209F2B3B00634626 /* Colors.json */; };
+		3A42FC46209F2B3B00634626 /* ZeplinExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42FC43209F2B3B00634626 /* ZeplinExtensions.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,8 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2176CE3B9862128829A7558A /* ByvStyles.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ByvStyles.podspec; path = ../ByvStyles.podspec; sourceTree = "<group>"; };
-		387B18827864FA2F7E156ED1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2176CE3B9862128829A7558A /* ByvStyles.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ByvStyles.podspec; path = ../ByvStyles.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		387B18827864FA2F7E156ED1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3A42FC41209F2B3B00634626 /* Styles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Styles.json; path = zeplin/Styles.json; sourceTree = SOURCE_ROOT; };
+		3A42FC42209F2B3B00634626 /* Colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Colors.json; path = zeplin/Colors.json; sourceTree = SOURCE_ROOT; };
+		3A42FC43209F2B3B00634626 /* ZeplinExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZeplinExtensions.swift; path = zeplin/ZeplinExtensions.swift; sourceTree = SOURCE_ROOT; };
 		4C18141440030ECED34D11DA /* Pods-ByvStyles_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByvStyles_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByvStyles_Tests/Pods-ByvStyles_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5483B4475CBB9AA6543582C6 /* Pods_ByvStyles_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByvStyles_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FB3DA380FF0F0B8D39BC34 /* Pods-ByvStyles_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByvStyles_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ByvStyles_Tests/Pods-ByvStyles_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,7 +50,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		95FDBA95DF0639F358CFE85B /* Pods-ByvStyles_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByvStyles_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ByvStyles_Example/Pods-ByvStyles_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C5D60033C4A4AA8C04C3DC26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C5D60033C4A4AA8C04C3DC26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E891A00CC9BF2BF5BAE2F89A /* Pods_ByvStyles_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByvStyles_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F546A59E213926E78C4D2730 /* Pods-ByvStyles_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByvStyles_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByvStyles_Example/Pods-ByvStyles_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +84,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3A58F5D6209DF8D8001EACBC /* Zeplin */ = {
+			isa = PBXGroup;
+			children = (
+				3A42FC42209F2B3B00634626 /* Colors.json */,
+				3A42FC41209F2B3B00634626 /* Styles.json */,
+				3A42FC43209F2B3B00634626 /* ZeplinExtensions.swift */,
+			);
+			name = Zeplin;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +118,7 @@
 		607FACD21AFB9204008FA782 /* Example for ByvStyles */ = {
 			isa = PBXGroup;
 			children = (
+				3A58F5D6209DF8D8001EACBC /* Zeplin */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -246,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				3A42FC45209F2B3B00634626 /* Colors.json in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				3A42FC44209F2B3B00634626 /* Styles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,10 +324,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ByvStyles_Example/Pods-ByvStyles_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ByvStyles/ByvStyles.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftRichString/SwiftRichString.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ByvStyles.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRichString.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -324,6 +345,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				3A42FC46209F2B3B00634626 /* ZeplinExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,10 +491,11 @@
 			baseConfigurationReference = F546A59E213926E78C4D2730 /* Pods-ByvStyles_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ByvStyles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byvapps.ByvStyles-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -484,10 +507,11 @@
 			baseConfigurationReference = 95FDBA95DF0639F358CFE85B /* Pods-ByvStyles_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ByvStyles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byvapps.ByvStyles-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

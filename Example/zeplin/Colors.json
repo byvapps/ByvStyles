@@ -1,0 +1,93 @@
+[
+  {
+    "r": 20,
+    "g": 120,
+    "b": 120,
+    "a": 1,
+    "name": "primary"
+  },
+  {
+    "r": 20,
+    "g": 120,
+    "b": 120,
+    "a": 0.1,
+    "name": "primaryLight"
+  },
+  {
+    "r": 74,
+    "g": 74,
+    "b": 74,
+    "a": 1,
+    "name": "lightText"
+  },
+  {
+    "r": 139,
+    "g": 139,
+    "b": 139,
+    "a": 1,
+    "name": "inputLabels"
+  },
+  {
+    "r": 248,
+    "g": 188,
+    "b": 76,
+    "a": 1,
+    "name": "yellowText"
+  },
+  {
+    "r": 252,
+    "g": 213,
+    "b": 77,
+    "a": 0.1,
+    "name": "lightYellow"
+  },
+  {
+    "r": 239,
+    "g": 239,
+    "b": 239,
+    "a": 1,
+    "name": "lightGreyBg"
+  },
+  {
+    "r": 14,
+    "g": 101,
+    "b": 101,
+    "a": 1,
+    "name": "primaryDark"
+  },
+  {
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "a": 1,
+    "name": "white"
+  },
+  {
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "a": 0.606,
+    "name": "whiteTransparent"
+  },
+  {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 0.61,
+    "name": "blackLight"
+  },
+  {
+    "r": 117,
+    "g": 117,
+    "b": 117,
+    "a": 1,
+    "name": "subtitleBlack"
+  },
+  {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 1,
+    "name": "black"
+  }
+]
