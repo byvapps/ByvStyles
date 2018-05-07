@@ -5,11 +5,26 @@
 [![License](https://img.shields.io/cocoapods/l/ByvStyles.svg?style=flat)](https://cocoapods.org/pods/ByvStyles)
 [![Platform](https://img.shields.io/cocoapods/p/ByvStyles.svg?style=flat)](https://cocoapods.org/pods/ByvStyles)
 
+With this library styles and colors can be defined and used after dynamically in code.
+Support exported contet from Zeplin
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Usage
+
+### Colors
+```swift
+self.view.bgNamedColor("yellowText")
+```
+
+### Styles
+```swift
+label.styledText("<titleBoldWhite>Añade tu vehículo</titleBoldWhite>")
+
+label2.styledText("<subtitleMessages>Hay una reparación asociada a este mantenimiento pendiente de valorar.</subtitleMessages> <subtitleMessagesBold>Obtendrás un 2% de descuento</subtitleMessagesBold> <subtitleMessages>de la factura en € bigs.</subtitleMessages>")
+```
 
 ## Installation
 

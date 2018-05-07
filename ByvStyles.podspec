@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Whit this library styles and colors can be defined and used after dynamically in code.
+With this library styles and colors can be defined and used after dynamically in code.
                        DESC
 
   s.homepage         = 'https://github.com/byvapps/ByvStyles'
