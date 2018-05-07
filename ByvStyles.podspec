@@ -29,6 +29,7 @@ With this library styles and colors can be defined and used after dynamically in
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'ByvStyles/Classes/**/*'
   
