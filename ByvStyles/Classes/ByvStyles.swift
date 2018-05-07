@@ -16,7 +16,7 @@ public struct JsonStyle: Codable {
     var fontStyle:String? //"normal",
     var fontFamily:String //"Roboto",
     var fontStretch:String? //"normal",
-    var lineHeight:CGFloat?
+    var lineHeight:Float?
     var textAlign:String? //"left",
     var letterSpacing: CGFloat?
     var color: JsonColor
@@ -30,10 +30,26 @@ public struct JsonStyle: Codable {
             } else {
                 $0.color = color.color()
             }
-//            if let align = textAlign {
-//                $0.align = .center
-//            }
+            if let align = textAlign {
+                $0.align = aligment(align)
+            }
+            if let lineHeight = lineHeight {
+                $0.minimumLineHeight = lineHeight
+            }
         })
+    }
+    
+    func aligment(_ textAligment: String) -> NSTextAlignment {
+        switch textAligment {
+        case "center":
+            return .center
+        case "right":
+            return .right
+        case "justify":
+            return .justified
+        default:
+            return .left
+        }
     }
 }
 

@@ -36,3 +36,5 @@ Carthage/Build
 #
 # Pods/
 Example/ByvStyles.xcworkspace
+Podfile.lock
+Example/Pods

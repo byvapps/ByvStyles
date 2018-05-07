@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import SwiftRichString
 
 extension UILabel {
     public func styledText(_ taggedText: String) {
