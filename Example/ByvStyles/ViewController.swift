@@ -14,6 +14,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var label2: UILabel!
+    @IBOutlet weak var button: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -23,6 +24,8 @@ class ViewController: UIViewController {
         label.styledText("<titleBoldWhite>Añade tu vehículo</titleBoldWhite>")
         
         label2.styledText("<subtitleMessages>Hay una reparación asociada a este mantenimiento pendiente de valorar.</subtitleMessages> <subtitleMessagesBold>Obtendrás un 2% de descuento</subtitleMessagesBold> <subtitleMessages>de la factura en € bigs.</subtitleMessages>")
+        
+        button.styledTitle("<titleBoldWhite>Añade tu vehículo</titleBoldWhite>")
     }
 
     override func didReceiveMemoryWarning() {

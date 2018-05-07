@@ -33,18 +33,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e95-dK-ilo">
+                                <rect key="frame" x="16" y="73" width="343" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="yFt-nX-aCU"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99731611389999997" green="0.35520301869999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="e95-dK-ilo" secondAttribute="trailing" constant="16" id="40v-E8-10C"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ez3-qa-kHm" secondAttribute="trailing" constant="16" id="45c-Qk-DKg"/>
                             <constraint firstItem="ojh-pw-Ceq" firstAttribute="top" secondItem="Ez3-qa-kHm" secondAttribute="bottom" constant="8" id="5NK-FJ-PtV"/>
                             <constraint firstItem="ojh-pw-Ceq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="9Qp-gW-j25"/>
+                            <constraint firstItem="e95-dK-ilo" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="CnC-5N-TpF"/>
+                            <constraint firstItem="e95-dK-ilo" firstAttribute="top" secondItem="ojh-pw-Ceq" secondAttribute="bottom" constant="8" id="HIn-RU-Iog"/>
                             <constraint firstItem="Ez3-qa-kHm" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="XVE-oN-wu8"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ojh-pw-Ceq" secondAttribute="trailing" constant="16" id="rVc-vl-ezu"/>
                             <constraint firstItem="Ez3-qa-kHm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="ulh-Mx-1Kx"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button" destination="e95-dK-ilo" id="MFL-JN-1xB"/>
                         <outlet property="label" destination="Ez3-qa-kHm" id="G6Q-gO-4sn"/>
                         <outlet property="label2" destination="ojh-pw-Ceq" id="Umf-zV-dDG"/>
                     </connections>

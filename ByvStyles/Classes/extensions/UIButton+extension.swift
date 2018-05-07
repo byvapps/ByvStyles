@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 extension UIButton {
-    public func styledText(_ taggedText: String) {
+    public func styledTitle(_ taggedText: String) {
         let styles = ByvStyles.stylesOfText(text: taggedText)
         self.setAttributedTitle(taggedText.renderTags(withStyles: styles), for: .normal)
     }
