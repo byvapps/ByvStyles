@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         label2.styledText("<subtitleMessages>Hay una reparación asociada a este mantenimiento pendiente de valorar.</subtitleMessages> <subtitleMessagesBold>Obtendrás un 2% de descuento</subtitleMessagesBold> <subtitleMessages>de la factura en € bigs.</subtitleMessages>")
         
-        button.styledTitle("<titleBoldWhite>Añade tu vehículo</titleBoldWhite>")
+        button.styledTitle("<titleBoldWhite>Añade</titleBoldWhite> <subtitleMessagesBold>tu</subtitleMessagesBold> <titleBoldWhite>vehículo</titleBoldWhite>")
     }
 
     override func didReceiveMemoryWarning() {
