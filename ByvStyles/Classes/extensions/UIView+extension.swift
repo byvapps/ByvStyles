@@ -8,11 +8,11 @@
 import Foundation
 
 extension UIView {
-    public func bgNamedColor(_ name: String) {
+    public func bgColorName(_ name: String) {
         self.backgroundColor = ByvColors.named(name)
     }
     
-    public func tintNamedColor(_ name: String) {
+    public func tintName(_ name: String) {
         self.tintColor = ByvColors.named(name) ?? UIColor.white
     }
 }

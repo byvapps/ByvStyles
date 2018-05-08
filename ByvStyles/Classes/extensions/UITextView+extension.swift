@@ -7,12 +7,9 @@
 
 import Foundation
 
-extension UIView {
-    public func bgColorName(_ name: String) {
-        self.backgroundColor = ByvColors.named(name)
-    }
-    
-    public func tintName(_ name: String) {
-        self.tintColor = ByvColors.named(name) ?? UIColor.white
+extension UITextView {
+    public func styledText(_ taggedText: String) {
+        let styles = ByvStyles.stylesOfText(text: taggedText)
+        self.attributedText = taggedText.renderTags(withStyles: styles)
     }
 }

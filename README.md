@@ -39,6 +39,9 @@ it, simply add the following line to your Podfile:
 pod 'ByvStyles'
 ```
 
+## Interface Builder
+To be able to set styles from Interface Builder directly you can use  [ByvStylesIB](https://github.com/byvapps/ByvStylesIB) library
+
 ## Author
 
 adrianByv, adrian@byvapps.com

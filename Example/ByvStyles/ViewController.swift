@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.view.bgNamedColor("yellowText")
+        self.view.bgColorName("yellowText")
         
         label.styledText("<titleBoldWhite>Añade tu vehículo</titleBoldWhite>")
         

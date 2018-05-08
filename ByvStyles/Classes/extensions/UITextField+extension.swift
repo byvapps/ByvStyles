@@ -9,10 +9,6 @@ import Foundation
 
 extension UITextField {
     
-    public func textColorName(_ name: String) {
-        self.textColor = ByvColors.named(name)
-    }
-    
     public func styledPlaceholder(_ taggedText: String) {
         let styles = ByvStyles.stylesOfText(text: taggedText)
         

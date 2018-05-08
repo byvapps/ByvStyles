@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ByvStyles'
-  s.version          = '0.1.5'
+  s.version          = '0.2.0'
   s.summary          = 'A library to manage dynamic styles for texts and colors'
 
 # This description is used to generate tags and improve search results.
