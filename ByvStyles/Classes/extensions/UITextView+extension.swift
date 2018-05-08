@@ -1,15 +1,18 @@
 //
-//  UITextView+extension.swift
-//  ByvLocalizations
+//  UIView+extension.swift
+//  ByvStyles
 //
-//  Created by Adrian Apodaca on 1/5/18.
+//  Created by Adrian Apodaca on 6/5/18.
 //
 
 import Foundation
 
-extension UITextView {
-    public func styledText(_ taggedText: String) {
-        let styles = ByvStyles.stylesOfText(text: taggedText)
-        self.attributedText = taggedText.renderTags(withStyles: styles)
+extension UIView {
+    public func bgColorName(_ name: String) {
+        self.backgroundColor = ByvColors.named(name)
+    }
+    
+    public func tintName(_ name: String) {
+        self.tintColor = ByvColors.named(name) ?? UIColor.white
     }
 }
