@@ -10,6 +10,10 @@ import Foundation
 extension UITextView {
     public func styledText(_ taggedText: String) {
         let styles = ByvStyles.stylesOfText(text: taggedText)
-        self.attributedText = taggedText.renderTags(withStyles: styles)
+        if styles.count > 0 {
+            self.attributedText = taggedText.renderTags(withStyles: styles)
+        } else {
+            self.text = taggedText
+        }
     }
 }

@@ -11,6 +11,10 @@ import UIKit
 extension UIButton {
     public func styledTitle(_ taggedText: String) {
         let styles = ByvStyles.stylesOfText(text: taggedText)
-        self.setAttributedTitle(taggedText.renderTags(withStyles: styles), for: .normal)
+        if styles.count > 0 {
+            self.setAttributedTitle(taggedText.renderTags(withStyles: styles), for: .normal)
+        } else {
+            self.setTitle(taggedText, for: .normal)
+        }
     }
 }

@@ -11,7 +11,10 @@ extension UITextField {
     
     public func styledPlaceholder(_ taggedText: String) {
         let styles = ByvStyles.stylesOfText(text: taggedText)
-        
-        self.attributedPlaceholder = taggedText.renderTags(withStyles: styles)
+        if styles.count > 0 {
+            self.attributedPlaceholder = taggedText.renderTags(withStyles: styles)
+        } else {
+            self.placeholder = taggedText
+        }
     }
 }
