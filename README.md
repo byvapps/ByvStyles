@@ -12,6 +12,10 @@ Support exported contet from Zeplin
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Requeriments
+
+Colors.json and Styles.js. Can be exported using zeplin ByvStyles extension
+
 ## Usage
 
 ### Colors
