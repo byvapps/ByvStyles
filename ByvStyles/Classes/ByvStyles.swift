@@ -55,6 +55,13 @@ public struct JsonStyle: Codable {
 
 public class ByvStyles: NSObject {
     
+    public static func addStyleFrom(json: String) {
+        ByvStyles.loadStyles()
+        if let newStyle = ByvStyles.styleFrom(json: json) {
+            ByvStyles.styles[newStyle.name.value] = newStyle
+        }
+    }
+    
     public static func styleFrom(json: String) -> Style? {
         if let data = json.data(using: .utf8) {
             return ByvStyles.styleFrom(data: data)

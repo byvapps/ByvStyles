@@ -21,6 +21,17 @@ public struct JsonColor: Codable {
 
 public class ByvColors: NSObject {
     
+    public static func addColorFrom(json: String) {
+        if let data = json.data(using: .utf8) {
+            let decoder = JSONDecoder()
+            let jsonColor = try! decoder.decode(JsonColor.self, from: data)
+            if let name = jsonColor.name {
+                ByvColors.loadColors()
+                ByvColors.colors[name] = jsonColor.color()
+            }
+        }
+    }
+    
     public static var colors:[String: UIColor] = [:]
     
     public static func named(_ name:String) -> UIColor? {
